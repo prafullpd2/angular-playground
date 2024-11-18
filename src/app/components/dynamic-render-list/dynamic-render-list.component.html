@@ -1,0 +1,4 @@
+@for(item of list(); track $index){
+    <!-- dynamic rendering using ng-container -->
+    <app-dynamic-component-loader [componentToRender]="componentToRender()" [inputProperties]="item" ></app-dynamic-component-loader>
+}

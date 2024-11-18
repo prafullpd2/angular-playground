@@ -1,0 +1,17 @@
+:host {
+    border: 1px solid red;
+    display: inline-block;
+
+}
+
+.inputField{
+    display: flex;
+    background: pink;
+    width: 100%;
+    justify-content: space-between;
+    margin: 5px 0 0;
+}
+.inputField label, .inputField input{
+    padding: 5px;
+    margin: 10px;
+}

@@ -1,0 +1,8 @@
+<div  >
+    <span>{{user()?.name}}</span>,
+    <span>{{user()?.age}}</span>,
+    <span>{{user()?.gender}}</span>
+    @if(user()?.imageUrl){
+        <img src="{{user()?.imageUrl}}" alt="">
+    }
+</div>
