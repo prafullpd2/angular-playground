@@ -3,11 +3,16 @@ import { TemplateDrivenFormComponent } from './components/template-driven-form/t
 import { AppComponent } from './app.component';
 import { DynamicComponentDemoComponent } from './components/dynamic-component-demo/dynamic-component-demo.component';
 import { EmptyComponentComponent } from './components/empty-component/empty-component.component';
+import { TemplateFormBuilderComponent } from './components/template-form-builder/template-form-builder.component';
 
 export const routes: Routes = [
     {
         path: 'tdform',
         component: TemplateDrivenFormComponent
+    },
+    {
+        path: 'tdformbuilder',
+        component: TemplateFormBuilderComponent
     },
     {
         path: 'dynamic',

@@ -12,7 +12,7 @@
         <input name="email" [(ngModel)]="email" id="email" type="text">
     </div>
 
-    <div class="inputField" >
+    <div [class]="{inputField: true}" >
         <label for="password">password</label>
         <input name="password" [(ngModel)]="password" id="password" type="password">
     </div>

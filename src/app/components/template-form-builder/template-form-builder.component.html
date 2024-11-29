@@ -1,0 +1,24 @@
+<p>This is template form builder!</p>
+<form (ngSubmit)="onSubmit(registrationForm, $event)" #registrationForm="ngForm" >
+
+
+    <div [ngClass]="{'inputField': true}">
+        <label  for="username">username</label>
+        <input  required name="username" ngModel id="username" type="text">
+    </div>
+
+    <div [class.inputField]="true">
+        <label for="email">email</label>
+        <input name="email" ngModel id="email" type="text">
+    </div>
+
+    <div class="inputField" >
+        <label for="password">password</label>
+        <input name="password" ngModel id="password" type="password">
+    </div>
+
+    <div [className]="true? 'inputField': '' ">
+        <input type="submit">
+    </div>
+
+</form>

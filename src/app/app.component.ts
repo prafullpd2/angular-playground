@@ -6,7 +6,7 @@ import { TemplateDrivenFormComponent } from './components/template-driven-form/t
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ContainerComponent],
+  imports: [ContainerComponent, RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
